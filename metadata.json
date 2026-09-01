@@ -2,5 +2,7 @@
   "name": "Navjot Singh - Portfolio",
   "description": "Personal portfolio of Navjot Singh, B.Tech student and aspiring AI/ML developer at Lovely Professional University.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
