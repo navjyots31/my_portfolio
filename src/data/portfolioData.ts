@@ -1,0 +1,140 @@
+import { Skill, Project, EducationInfo, NavItem } from '../types';
+
+export const PERSONAL_INFO = {
+  name: 'Navjot Singh',
+  role: 'B.Tech Student | Aspiring AI/ML Developer',
+  university: 'Lovely Professional University (LPU)',
+  location: 'Punjab, India',
+  motto: 'Learning. Building. Innovating.',
+  experienceLevel: 'Beginner',
+  email: 'navjyots31@gmail.com',
+  github: 'https://github.com/navjyots31/Navjyot-Singh',
+  linkedin: 'https://www.linkedin.com/in/navjyot-singh-655b62432',
+  bio: 'I am a passionate B.Tech student at Lovely Professional University, focused on mastering computer science fundamentals and venturing into the world of Artificial Intelligence and Machine Learning. I believe in learning by actively building projects, creating practical solutions, and solving real-world challenges step by step.',
+  statusBadge: 'Open to Learning & Collaborations',
+};
+
+export const NAV_ITEMS: NavItem[] = [
+  { name: 'About', href: '#about' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'Education', href: '#education' },
+  { name: 'Contact', href: '#contact' },
+];
+
+export const SKILLS_DATA: Skill[] = [
+  {
+    id: 'python',
+    name: 'Python',
+    category: 'Languages',
+    level: 'Foundational',
+    description: 'Writing scripts, data manipulation, and building simple ML experiments with standard libraries.',
+    highlight: 'Primary language for AI/ML',
+    icon: 'FileCode2',
+    accentColor: 'from-blue-500 to-cyan-400',
+  },
+  {
+    id: 'cpp',
+    name: 'C++',
+    category: 'Languages',
+    level: 'Foundational',
+    description: 'Understanding object-oriented programming, memory concepts, and foundational algorithms.',
+    highlight: 'Core CS foundation',
+    icon: 'Terminal',
+    accentColor: 'from-blue-600 to-indigo-500',
+  },
+  {
+    id: 'sql',
+    name: 'SQL',
+    category: 'Languages',
+    level: 'Learner',
+    description: 'Relational database querying, joins, aggregation, and organizing structured datasets.',
+    highlight: 'Data querying & filtering',
+    icon: 'Database',
+    accentColor: 'from-cyan-500 to-teal-400',
+  },
+  {
+    id: 'ai',
+    name: 'Artificial Intelligence',
+    category: 'AI & Core Concepts',
+    level: 'Learner',
+    description: 'Studying core AI principles, search algorithms, intelligent agent concepts, and modern AI paradigms.',
+    highlight: 'Theoretical & practical curiosity',
+    icon: 'Sparkles',
+    accentColor: 'from-purple-500 to-indigo-400',
+  },
+  {
+    id: 'ml',
+    name: 'Machine Learning',
+    category: 'AI & Core Concepts',
+    level: 'Beginner',
+    description: 'Exploring supervised learning, linear/logistic regression, decision trees, and model evaluation metrics.',
+    highlight: 'Hands-on scikit-learn & pandas',
+    icon: 'Brain',
+    accentColor: 'from-fuchsia-500 to-pink-500',
+  },
+  {
+    id: 'git',
+    name: 'Git & GitHub',
+    category: 'Tools & Foundations',
+    level: 'Foundational',
+    description: 'Version control workflows, committing changes, branch management, and repository collaboration.',
+    highlight: 'Open source & team practices',
+    icon: 'GitBranch',
+    accentColor: 'from-amber-500 to-orange-400',
+  },
+  {
+    id: 'problem-solving',
+    name: 'Problem Solving',
+    category: 'Tools & Foundations',
+    level: 'Practicing',
+    description: 'Breaking down complex technical problems into logical steps with modular, testable solutions.',
+    highlight: 'Analytical reasoning',
+    icon: 'Cpu',
+    accentColor: 'from-violet-500 to-purple-400',
+  },
+];
+
+export const PROJECTS_DATA: Project[] = [
+  {
+    id: 'smart-water-meter',
+    title: 'Smart Water Quality Meter',
+    tagline: 'IoT & Sensor-Based Water Parameter Monitoring',
+    category: 'IoT & Embedded Tech',
+    description: 'An interactive monitoring project designed to evaluate essential water quality metrics such as pH levels, Turbidity (NTU), and Total Dissolved Solids (TDS) with real-time threshold indicators and safety classifications.',
+    technologies: ['Python', 'IoT Sensors', 'C++', 'Data Visualization'],
+    githubUrl: 'https://github.com/navjyots31/Navjyot-Singh',
+    liveDemoUrl: '#',
+    status: 'Working Prototype',
+    gradient: 'from-blue-600/30 via-cyan-500/20 to-transparent',
+    demoType: 'water-quality',
+    features: [
+      'Simulated multi-sensor readings for pH, turbidity, and TDS',
+      'Instant safety categorization (Potable, Moderate, Unsafe)',
+      'Threshold alert warning triggers for abnormal water chemistry',
+      'Clean data visualizer designed for low-power microcontroller monitoring',
+    ],
+  },
+];
+
+export const EDUCATION_DATA: EducationInfo = {
+  degree: 'Bachelor of Technology (B.Tech)',
+  institution: 'Lovely Professional University (LPU)',
+  period: '2025 – Present',
+  location: 'Punjab, India',
+  currentStatus: 'Undergraduate Student',
+  keyCoursework: [
+    'Object Oriented Programming',
+    'Database Management Systems',
+    'Software Engineering Principles',
+    'Mathematics for Computing',
+    'Artificial Intelligence Fundamentals',
+    'Computer Organization & Architecture',
+  ],
+  academicFocus: [
+    'Building strong foundational knowledge in Computer Science',
+    'Hands-on software development and scripting in C++ & Python',
+    'Actively exploring introductory Machine Learning architectures',
+    'Collaborating on academic hardware and software projects',
+  ],
+};
